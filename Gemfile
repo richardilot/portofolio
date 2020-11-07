@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) {|richardilot.github.io| "https://github.com/#{richardilot.github.io}" }
 
 # gem "rails"
 
