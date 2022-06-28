@@ -13,7 +13,11 @@
   </head>
 
   <body class="container">
-    <py-env> - paths: - ./utils.py - openai </py-env>
+    <py-env> 
+      - paths: 
+      - ./utils.py 
+      - openai==0.20.0
+    </py-env>
     <!-- <py-repl id="my-repl" auto-generate="true"> </py-repl> -->
     <py-script src="./openai_proj.py"> </py-script>
 
