@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Richard Ilot - OpenAI</title>
+
+    <link rel="icon" href="R.png" target="_self" type="image/x-icon" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env> 
+      - paths: - ./utils.py 
+      - openai
+    </py-env>
+  </head>
+
+  <body class="container">
+    <!-- <py-repl id="my-repl" auto-generate="true"> </py-repl> -->
+    <py-script src="./openai_proj.py"> </py-script>
+
+    <main>
+      <section>
+        <div class="text-center w-full mb-8">
+          <h1 class="text-3xl font-bold text-gray-800 uppercase tracking-tight">
+            OpenAI Tool Online
+          </h1>
+        </div>
+        <div class="text-center w-full mb-8">
+          <input id="new-input-content" class="py-input" type="text" />
+        </div>
+        <div class="text-center w-full mb-8">
+          <button
+            id="new-cmd-btn"
+            class="py-button"
+            type="submit"
+            pys-onClick="add_command"
+          >
+            Add Command
+          </button>
+        </div>
+        <div class="text-center w-full mb-8"><input id="new-input-content" class="py-input" type="text" /></div>
+        <div class="text-center w-full mb-8">
+          <button
+            id="new-raw-btn"
+            class="py-button"
+            type="submit"
+            pys-onClick="add_raw"
+          >
+            Add Raw Input
+          </button>
+        </div>
+        <div>
+          <output 
+          id="new-openai-out" class="">
+          
+        </output>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
