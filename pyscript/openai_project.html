@@ -10,10 +10,7 @@
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
 
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <py-env> 
-      - paths: - ./utils.py 
-      - openai
-    </py-env>
+    <py-env> - paths: - ./utils.py - openai </py-env>
   </head>
 
   <body class="container">
@@ -40,7 +37,9 @@
             Add Command
           </button>
         </div>
-        <div class="text-center w-full mb-8"><input id="new-input-content" class="py-input" type="text" /></div>
+        <div class="text-center w-full mb-8">
+          <input id="new-input-content" class="py-input" type="text" />
+        </div>
         <div class="text-center w-full mb-8">
           <button
             id="new-raw-btn"
@@ -51,12 +50,7 @@
             Add Raw Input
           </button>
         </div>
-        <div>
-          <output 
-          id="new-openai-out" class="">
-          
-        </output>
-        </div>
+        <div id="new-openai-out" class="flex flex-col-reverse mt-4"></div>
       </section>
     </main>
   </body>

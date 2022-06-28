@@ -12,7 +12,7 @@ response = "null"
 # define the task template that will be use to render new templates to the page
 proj_template = Element("proj-template").select(".aiproj", from_content=True)
 new_input_content = Element("new-input-content")
-new_openai_out = Element('new-openai-out').element.innerText = response
+new_openai_out = Element('new-openai-out')
 
 openai.api_key = os.getenv("API_KEY")
 
@@ -45,7 +45,7 @@ def show_result():
         model="text-davinci-002",
         prompt=_prompt,
     )
-    print(new_openai_out.element.value)
+    new_openai_out.element.appendChild(response)
 
 
 
