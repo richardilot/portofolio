@@ -166,14 +166,14 @@ export default function Home() {
               title="SIAK Terpusat"
               description="A national information system for Indonesian civil registration."
               tags={["PL/SQL", "Node.js", "Java"]}
-              imageUrl="/moha.svg?height=300&width=400" // Update the path here
+              imageUrl="/richardilot-github-pages/moha.svg?height=300&width=400" // Update the path here
               newsUrl="https://disdukcapil.limapuluhkotakab.go.id/berita/rakornas-dukcapil-2022-kemendagri-luncurkan-siak-terpusat"
             />
             <ProjectCardIkd
               title="Identitas Kependudukan Digital"
               description="A national digital identity mobile application for accessing Indonesian civil registration documents."
               tags={["Flutter", "Java", "PL/SQL", "Kafka", "Redis", "Git"]}
-              imageUrl="/moha.svg?height=300&width=400"
+              imageUrl="/richardilot-github-pages/moha.svg?height=300&width=400"
               androidUrl="https://play.google.com/store/apps/details?id=gov.dukcapil.mobile_id&hl=id"
               iosUrl="https://apps.apple.com/id/app/identitas-kependudukan-digital/id6448944056?l=id"
             />
@@ -181,7 +181,7 @@ export default function Home() {
               title="Vector-ST"
               description="An electric superbike made by a student team consisting of University of Twente and Saxion UAS students."
               tags={["Embedded C++", "Electrical Engineering"]}
-              imageUrl="/placeholder.svg?height=300&width=400"
+              imageUrl="/richardilot-github-pages/next.svg?height=300&width=400"
               videoUrl="https://www.youtube.com/watch?v=37XCUOk7i9g"
               websiteUrl="https://electricsuperbiketwente.nl/"
             />
