@@ -98,7 +98,7 @@ function ProjectCardSiak({ title, description, tags, imageUrl, newsUrl }: Projec
         <CardFooter className="flex justify-between">
           <Button variant="outline" size="sm" asChild>
             <Link href={newsUrl} target="_blank" rel="noreferrer" className="gap-1">
-              <Newspaper className="h-4 w-4" /> Code
+              <Newspaper className="h-4 w-4" /> News
             </Link>
           </Button>
         </CardFooter>
@@ -128,12 +128,12 @@ function ProjectCardIkd({ title, description, tags, imageUrl, androidUrl, iosUrl
         <CardFooter className="flex justify-between">
           <Button variant="outline" size="sm" asChild>
             <Link href={androidUrl} target="_blank" rel="noreferrer" className="gap-1">
-              <Smartphone className="h-4 w-4" /> Code
+              <Smartphone className="h-4 w-4" /> Android
             </Link>
           </Button>
           <Button size="sm" asChild>
             <Link href={iosUrl} target="_blank" rel="noreferrer" className="gap-1">
-              <Smartphone className="h-4 w-4" /> Code
+              <Smartphone className="h-4 w-4" /> iOS
             </Link>
           </Button>
         </CardFooter>
@@ -163,12 +163,12 @@ function ProjectCardEst({ title, description, tags, imageUrl, videoUrl, websiteU
       <CardFooter className="flex justify-between">
         <Button variant="outline" size="sm" asChild>
           <Link href={videoUrl} target="_blank" rel="noreferrer" className="gap-1">
-            <Youtube className="h-4 w-4" /> Code
+            <Youtube className="h-4 w-4" /> Video
           </Link>
         </Button>
         <Button size="sm" asChild>
           <Link href={websiteUrl} target="_blank" rel="noreferrer" className="gap-1">
-            <ExternalLink className="h-4 w-4" /> Code
+            <ExternalLink className="h-4 w-4" /> Website
           </Link>
         </Button>
       </CardFooter>
