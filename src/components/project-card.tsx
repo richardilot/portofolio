@@ -45,7 +45,7 @@ function ProjectCard({ title, description, tags, imageUrl, githubUrl, demoUrl }:
   return (
     <Card className="overflow-hidden">
       <div className="relative h-48 w-full">
-        <Image src={imageUrl || "/richardilot-github-pages/next.svg"} alt={title} fill className="object-cover" priority />
+        <Image src={imageUrl || "/portofolio/next.svg"} alt={title} fill className="object-cover" priority />
       </div>
       <CardHeader>
         <CardTitle>{title}</CardTitle>
@@ -80,7 +80,7 @@ function ProjectCardSiak({ title, description, tags, imageUrl, newsUrl }: Projec
     return (
       <Card className="overflow-hidden">
         <div className="relative h-48 w-full">
-          <Image src={imageUrl || "/richardilot-github-pages/next.svg"} alt={title} fill className="object-cover" priority />
+          <Image src={imageUrl || "/portofolio/next.svg"} alt={title} fill className="object-cover" priority />
         </div>
         <CardHeader>
           <CardTitle>{title}</CardTitle>
@@ -110,7 +110,7 @@ function ProjectCardIkd({ title, description, tags, imageUrl, androidUrl, iosUrl
     return (
       <Card className="overflow-hidden">
         <div className="relative h-48 w-full">
-          <Image src={imageUrl || "/richardilot-github-pages/next.svg"} alt={title} fill className="object-cover" priority />
+          <Image src={imageUrl || "/portofolio/next.svg"} alt={title} fill className="object-cover" priority />
         </div>
         <CardHeader>
           <CardTitle>{title}</CardTitle>
@@ -145,7 +145,7 @@ function ProjectCardEst({ title, description, tags, imageUrl, videoUrl, websiteU
   return (
     <Card className="overflow-hidden">
       <div className="relative h-48 w-full">
-        <Image src={imageUrl || "/richardilot-github-pages/next.svg"} alt={title} fill className="object-cover" priority />
+        <Image src={imageUrl || "/portofolio/next.svg"} alt={title} fill className="object-cover" priority />
       </div>
       <CardHeader>
         <CardTitle>{title}</CardTitle>
